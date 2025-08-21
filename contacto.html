@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .contenedor {
+            position: relative;
+            width: 90vw;
+            transform: scale(0.9); /* Reducir el tamaño un 10% */
+        }
+        
+        .imagen {
+            position: relative;
+            width: 100%;
+            padding-bottom: 83.83%; /* 788/940 = 0.8383 */
+            background-image: url('https://drive.google.com/uc?id=1-6DVha8xdeqDDsula-sIL4Vrg9nyKHzg');
+            background-size: 100% 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        
+        .botones {
+            position: absolute;
+            top: 50%;
+            left: 23%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .boton {
+            padding: 1vw 2vw;
+            border: none;
+            border-radius: 0.5vw;
+            cursor: pointer;
+            font-size: 2vw;
+            text-decoration: none;
+            width: 10vw;
+            text-align: center;
+        }
+        
+        .boton-whatsapp {
+            background-color: #25D366;
+            color: #fff;
+        }
+        
+        .boton-email {
+            background-color: #007bff;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="imagen">
+            <div class="botones">
+                <a href="https://wa.me/+5491151388014" class="boton boton-whatsapp">Whatsapp</a>
+                <a href="mailto:pablohcordova@gmail.com" class="boton boton-email">Mail</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
